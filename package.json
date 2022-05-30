@@ -6,6 +6,7 @@
   "private": true,
   "scripts": {
     "prepare": "husky install",
+    "start": "http-server --silent -c-1",
     "check-style": "prettier --ignore-unknown --no-error-on-unmatched-pattern --check \"**/*\"",
     "format": "prettier --ignore-unknown --no-error-on-unmatched-pattern --write \"**/*\"",
     "lint:js": "eslint --no-error-on-unmatched-pattern --report-unused-disable-directives --ext .html,.js ./",
@@ -20,6 +21,7 @@
     "eslint": "^8.10.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-html": "^6.2.0",
+    "http-server": "^14.1.0",
     "husky": "^8.0.1",
     "lint-staged": "^12.4.2",
     "npm-run-all": "^4.1.5",
