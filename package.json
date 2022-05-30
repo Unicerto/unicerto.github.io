@@ -4,9 +4,14 @@
   "description": "Website do Escritório Unicerto",
   "license": "UNLICENCED",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "check-style": "prettier --ignore-unknown --no-error-on-unmatched-pattern --check \"**/*\"",
+    "format": "prettier --ignore-unknown --no-error-on-unmatched-pattern --write \"**/*\""
+  },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  },
   "author": {
     "name": "Anderson Roberto Slivinski",
     "url": "https://github.com/arslivinski"
