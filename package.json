@@ -6,10 +6,17 @@
   "private": true,
   "scripts": {
     "check-style": "prettier --ignore-unknown --no-error-on-unmatched-pattern --check \"**/*\"",
-    "format": "prettier --ignore-unknown --no-error-on-unmatched-pattern --write \"**/*\""
+    "format": "prettier --ignore-unknown --no-error-on-unmatched-pattern --write \"**/*\"",
+    "lint:js": "eslint --no-error-on-unmatched-pattern --report-unused-disable-directives --ext .html,.js ./",
+    "lint": "run-s -c lint:**"
   },
   "dependencies": {},
   "devDependencies": {
+    "@arslivinski/eslint-config": "^1.0.0-alpha.11",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-html": "^6.2.0",
+    "npm-run-all": "^4.1.5",
     "prettier": "^2.6.2"
   },
   "author": {
