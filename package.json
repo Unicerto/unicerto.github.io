@@ -1,0 +1,22 @@
+{
+  "name": "@unicerto/website",
+  "version": "1.0.0-alpha.0",
+  "description": "Website do Escritório Unicerto",
+  "license": "UNLICENCED",
+  "private": true,
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {},
+  "author": {
+    "name": "Anderson Roberto Slivinski",
+    "url": "https://github.com/arslivinski"
+  },
+  "homepage": "https://www.unicertocontabil.com.br",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:Unicerto/unicerto.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Unicerto/unicerto.github.io/issues"
+  }
+}
