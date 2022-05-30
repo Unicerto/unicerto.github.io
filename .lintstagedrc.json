@@ -1,0 +1,5 @@
+{
+  "*.js": "eslint",
+  "*.css": "stylelint",
+  "*.{html,css,js,json,md}": "prettier"
+}
