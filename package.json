@@ -11,7 +11,8 @@
     "format": "prettier --ignore-unknown --no-error-on-unmatched-pattern --write \"**/*\"",
     "lint:js": "eslint --no-error-on-unmatched-pattern --report-unused-disable-directives --ext .html,.js ./",
     "lint:css": "stylelint --allow-empty-input --report-descriptionless-disables --report-needless-disables \"**/*.css\"",
-    "lint": "run-s -c lint:**"
+    "lint": "run-s -c lint:**",
+    "release": "git subtree push --prefix public origin gh-pages"
   },
   "dependencies": {},
   "devDependencies": {
