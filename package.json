@@ -1,6 +1,6 @@
 {
   "name": "@unicerto/website",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0",
   "description": "Website do Escritório Unicerto",
   "license": "UNLICENCED",
   "private": true,
